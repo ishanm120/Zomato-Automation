@@ -1,0 +1,124 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1007386,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Open Application",
+        "description": "",
+        "id": "launch-zomato-application;open-application",
+        "after": [
+          {
+            "result": {
+              "duration": 535032,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 98575425,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch application",
+            "match": {
+              "location": "HomePageSteps.launchApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71741,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify app is laucnhed successfully",
+            "match": {
+              "location": "HomePageSteps.appLauncedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1275091,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Open Application again",
+        "description": "",
+        "id": "launch-zomato-application;open-application-again",
+        "after": [
+          {
+            "result": {
+              "duration": 97039,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 147257,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Launch application",
+            "match": {
+              "location": "HomePageSteps.launchApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148012,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify app is laucnhed successfully",
+            "match": {
+              "location": "HomePageSteps.appLauncedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Launch Zomato application",
+    "description": "",
+    "id": "launch-zomato-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/HomePage.feature"
+  }
+]
